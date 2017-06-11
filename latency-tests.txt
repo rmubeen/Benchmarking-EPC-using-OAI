@@ -1,0 +1,40 @@
+Below are ping results from OAI-UE(s) to different hosts.
+This experiment took multiple UE(s) to ping a particular host and then iterated the same experiment using different number of UE(s), simultanously.
+In this experiment, we tried to demonstrate how changing the number of UE(s) in a cellular network(EPC) changes latency.
+
+time unit = milliseconds
+
+HOST: EPC-PGW(10.103.72.30)
+Average		UE# 01 		UE# 02 		UE# 03 		UE# 04 		UE# 05 		UE# 06
+72.575		72.575
+95.244		84.243		106.245
+95.624		79.202 		107.502 	100.169
+118.930		81.637		109.655 	148.363 	136.067
+105.933		105.636		90.188 		103.474 	98.081		132.287
+118.207		109.298 	129.485		113.325 	130.927		118.224 	107.986
+
+HOST: a host on local network(10.103.72.16)
+Average		UE# 01 		UE# 02 		UE# 03 		UE# 04 		UE# 05 		UE# 06
+65.903		65.903
+82.082		77.747		86.417
+108.936		117.951		78.970		129.888
+137.336		72.688		128.778		176.541		171.338
+133.472		92.049		86.614		158.053		165.893		164.751
+141.544		181.439		77.176		142.808		97.229		199.261		151.353
+
+HOST: a host in Karachi(Pakistan)(221.120.204.134)
+Average		UE# 01 		UE# 02 		UE# 03 		UE# 04 		UE# 05 		UE# 06
+103.283		103.283
+111.267		102.196 	120.339
+124.100		131.456 	105.265 	135.580
+131.320		140.220 	94.094 		150.981 	139.987
+139.927		158.027		147.202 	149.779 	134.808 	109.819
+167.247		202.234 	218.092 	167.707 	124.004	 	161.212		130.234
+
+HOST: a host in San-Juan(Puerto-Rico)(195.181.212.252)
+Average		UE# 01 		UE# 02 		UE# 03 		UE# 04 		UE# 05
+255.799		255.799
+243.047		232.770 	253.324
+248.755		258.854 	209.226 	278.186
+250.732		231.563 	256.699 	241.983 	272.685
+251.238		264.314		265.602 	252.428 	263.532 	210.317

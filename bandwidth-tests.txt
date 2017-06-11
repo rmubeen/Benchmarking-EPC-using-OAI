@@ -1,0 +1,23 @@
+Below is the bandwidth available to OAI-UE(s) calculated from different hosts.
+This experiment had multiple UE(s) and calculated bandwidth available to them and then iterated the same experiment using different number of UE(s), simultanously.
+In this experiment, we tried to demonstrate how changing the number of UE(s) in a cellular network(EPC) changes their bandwidth.
+
+bandwidth unit = Mbit/s
+
+HOST: Karachi(Pakistan) hosted by ZONG
+Average		UE# 01 		UE# 02 		UE# 03 		UE# 04 		UE# 05 		UE# 06
+1.34 		1.34
+0.65		0.49 		0.81
+0.49		0.16 		1.10 		0.23
+0.29		0.41 		0.14 		0.50 		0.11
+0.244		0.08 		0.41 		0.40 		0.15 		0.18
+0.21		0.20 		0.43 		0.27 		0.05 		0.10 		0.19
+
+HOST: Doha(Qatar) hosted by VODAFONE
+Average		UE# 01 		UE# 02 		UE# 03 		UE# 04 		UE# 05 		UE# 06
+1.69		1.69
+0.915		1.13 		0.70
+0.43		0.37		0.08 		0.84
+0.6475		0.19 		0.44 		1.59 		0.37
+0.27		0.07 		0.11 		0.72 		0.13 		0.33
+0.22		0.43 		0.28 		0.05 		0.26 		0.23 		0.07
